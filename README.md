@@ -31,7 +31,7 @@ Evaluated on the standardized **TrashCan-Instance** benchmark ($640 \times 640$ 
 
 | Model Architecture | mAP@0.50 (%) | mAP@0.5:0.95 (%) | Precision (%) | Recall (%) | Params (M) | GFLOPs | Latency (ms) | Speed (FPS) | Status / Origin |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **SvelteF3M-YOLO26 (Ours)** | **59.09** | **35.83** | **70.00** | **53.90** | **2.089M** | **5.2** | **15.75 ms** | **63.5 FPS** | **Trained & Locally Verified Checkpoint** |
+| **AquaGate-YOLO26** | **59.09** | **35.83** | **70.00** | **53.90** | **2.089M** | **5.2** | **15.75 ms** | **63.5 FPS** | **Trained & Locally Verified Checkpoint** |
 | **YOLO26n Baseline** | 66.68 | 47.16 | 74.80 | 63.50 | 2.512M | 6.1 | 4.20 ms | 238 FPS | Trained baseline checkpoint |
 | **YOLO11n Reference** | 62.76 | 43.73 | 71.30 | 59.80 | 2.586M | 6.4 | 4.80 ms | 208 FPS | Trained reference checkpoint |
 | **AquaYOLO26n** (Zeng et al., Symmetry 2026) | 73.40 | 49.10 | 74.80 | 69.10 | 2.460M | 6.2 | 4.20 ms | 238 FPS | Literature Benchmark |
